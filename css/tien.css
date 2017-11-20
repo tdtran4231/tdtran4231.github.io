@@ -1,0 +1,17 @@
+@media screen {
+	div#tienPreloader {
+		position: absolute;
+		left: -9999px;
+		top:  -9999px;
+		}
+	div#tienPreloader img {
+		display: block;
+		}
+	}
+@media print {
+	div#tienPreloader, 
+	div#tienPreloader img {
+		visibility: hidden;
+		display: none;
+		}
+	}
